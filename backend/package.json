@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "scripts": {
+    "prepare": "nitropack prepare",
+    "dev": "nitropack dev",
+    "build": "nitropack build",
+    "preview": "node .output/server/index.mjs"
+  },
+  "dependencies": {
+    "@minatojs/driver-sqlite": "^3.6.3",
+    "minato": "^2.4.3",
+    "nitropack": "latest",
+    "reggol": "^1.6.3"
+  }
+}
